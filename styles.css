@@ -1,0 +1,69 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    color: #d9d9d9;
+    background-color: #2b2b2b;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #ff8c00;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+h2 {
+    color: #b3b3b3;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: #3d3d3d;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 1.1em;
+    color: #d9d9d9;
+}
+
+.news-post, .patch-notes-entry {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #4a4a4a;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.news-post h3, .patch-notes-entry h3 {
+    color: #ff8c00;
+    margin-top: 0;
+}
+
+.discord-link, .news-link, .patch-notes-link, .back-link {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.discord-link a, .news-link a, .patch-notes-link a, .back-link a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #ff8c00;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.discord-link a:hover, .news-link a:hover, .patch-notes-link a:hover, .back-link a:hover {
+    background-color: #e67e00;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5);
+}
